@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  parser:
+    build:
+      context: .
+    volumes:
+      - .:/app/ibara_parse:cached
